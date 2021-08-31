@@ -1,0 +1,623 @@
+@media screen and (max-width: 1600px) {
+    header h1 {
+        font-size: 48px;
+    }
+
+    section.ultimateFeatures .feature {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    section.ultimateFeatures .feature h6 {
+        margin: 15px 0 5px;
+    }
+    
+    section.ultimateFeatures .ultimateFeaturesImg {
+        display: flex;
+        align-items: center;
+    }
+
+    section.download .downloadImg {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    /* HEADER */
+    header {
+        background-position: center;
+    }
+
+    header h1 {
+        font-size: 40px;
+    }
+
+    header .headerInfo, header .headerImg {
+        width: 45%;
+        display: flex;
+    }
+
+    /* COMPANIES */
+    section.companies .content .logos {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    section.companies .content .logo {
+        width: 28%;
+    }
+
+    /* JACKPOT */
+    section.aboutJackpots .jackpots .jackpot {
+        width: 30%;
+    }
+
+    section.aboutJackpots .jackpotsInfo h4 {
+        font-size: 38px;
+    }
+
+    /* DESIGNED_BY */
+    section.designedBy .content {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    section.designedBy .designedByImg {
+        margin-bottom: 25px;
+        margin-right: 0;
+    }
+
+    section.designedBy .designedByImg img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    section.designedBy .designedByInfo {
+        display: flex;
+        margin: 0 auto;
+        width: 90%;
+        align-items: center;
+        text-align: center;
+    }
+
+    section.designedBy .designedByInfo button {
+        align-self: center;
+    }
+
+
+    /* CHOOSE_OUR_APP */
+    section.chooseOurApp .chooseOurAppInfo h5 {
+        max-width: 50%;
+    }
+    
+    section.chooseOurApp .chooseOurAppInfo p {
+        max-width: 70%;
+    }
+
+    section.chooseOurApp .benefit {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: calc(50% - 50px);
+        margin-bottom: 70px;
+    }
+
+    /* ULTIMATE_FEATURES */
+    section.ultimateFeatures .containerRight {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    section.ultimateFeatures .content .ultimateFeaturesInfo {
+        width: 100%;
+    }
+
+    section.ultimateFeatures .featuresInfo h5, section.ultimateFeatures .featuresInfo p {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    section.ultimateFeatures .featuresInfo p {
+        margin: 30px auto 50px;
+    }
+
+    section.ultimateFeatures .content {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    section.ultimateFeatures .feature {
+        display: flex;
+        flex-direction: column;
+        width: calc(50% - 50px);
+        align-items: center;
+    }
+
+
+    section.ultimateFeatures .features {
+        margin-bottom: 20px;
+    }
+
+    section.ultimateFeatures .ultimateFeaturesImg {
+        display: none;
+    }
+
+    /* OFFERS */
+    section.offers .offersInfo {
+        width: 80%;
+    }
+
+    section.offers .container {
+        width: 85%;
+    }
+
+    section.offers .package {
+        width: calc(50% - 40px);
+    }
+    
+    section.clients .content {
+        display: flex;
+    }
+
+    /* CLIENTS */
+    section.clients .containerLeft {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    section.clients .map {
+        margin-bottom: 40px;
+        width: 50%;
+    }
+
+    section.clients .map img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    section.clients .clientsCarousel .arrows {
+        margin-top: 30px;
+        position: relative;
+    }
+
+    /* section.clients .content {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+
+    section.clients .clientsContent {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+        width: 80%;
+    } */
+
+    section.clients .clientsContent p {
+        margin: 30px 0 50px;
+    }
+
+    section.clients .clientsContent {
+        width: 50%;
+    }
+
+    /* DOWNLOAD */
+    section.download .content {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    /* HEADER */
+
+    header h1 {
+        font-size: 30px;
+    }
+
+    header .buttonDemo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header .buttonDemo a {
+        margin-left: 0;
+    }
+
+    /* OFFERS */
+    section.offers .container {
+        width: 100%;
+    }
+
+    section.offers .package {
+        width: calc(50% - 30px);
+    }
+
+    /* JACKPOTS */
+
+    section.aboutJackpots .jackpots .jackpot {
+        min-width: auto;
+    }
+
+    section.aboutJackpots .jackpotsInfo h4 {
+        font-size: 36px;
+        padding-right: 40px;
+        margin-right: 40px;
+    }
+
+    /* CLIENTS */
+    section.clients .content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    section.clients .map {
+        display: none;
+    }
+
+    section.clients .clientsContent {
+        width: 100%;
+    }
+
+@media screen and (max-width: 767px) {
+
+    /* HEADER */
+
+    header .content .headerInfo {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+    
+    header .headerImg {
+        display: none;
+    }
+
+    header .buttonDemo a {
+        margin-top: 10px;
+    }
+
+    /* COMPANIES */
+    section.companies {
+        padding: 60px 0;
+    }
+
+    /* APP_FEATURES */
+    section.appFeatures .featuresImg {
+        display: none;
+    }
+
+    section.appFeatures .feature:last-child {
+        margin-bottom: 0;
+    }
+
+    section.appFeatures .featuresInfo h4 {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    section.appFeatures p.aboutFeatures {
+        text-align: center;
+        margin: 5px 0 25px;
+    }
+
+    section.appFeatures .feature {
+        margin-bottom: 15px;
+    }
+
+    section.appFeatures .feature h6 {
+        margin: 5px 0;
+    }
+
+    /* JACKPOT */
+    section.aboutJackpots .content {
+        margin-bottom: 25px;
+    }
+
+    section.aboutJackpots .jackpotsInfo {
+        padding-bottom: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    section.aboutJackpots .jackpotsInfo h4 {
+        font: 600 28px "Poppins";
+        border-right: none;
+        width: 80%;
+        padding-right: 0;
+        margin: 0 0 10px;
+    }
+
+    section.aboutJackpots .jackpotsInfo p {
+        font: 14px/1.63 "Poppins";
+    }
+
+    section.aboutJackpots .jackpots {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    section.aboutJackpots .jackpots .jackpot {
+        width: 100%;
+        margin-bottom: 10px;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    section.aboutJackpots .jackpots .jackpot img {
+        margin-right: 20px;
+    }
+
+    /* DESIGN_BY */
+    section.designedBy .designedByImg img {
+        display: none;
+    }
+
+    section.designedBy .designedByInfo {
+        text-align: center;
+    }
+
+    section.designedBy .designedByInfo p {
+        margin: 15px 0 20px;
+    }
+
+    section.designedBy .designedByInfo button {
+        margin: 0 auto;
+    }
+
+    /* CHOOSE_OUR_APP */
+    section.chooseOurApp {
+        padding-top: 80px;
+    }
+
+    section.chooseOurApp .chooseOurAppInfo h5 {
+        font: 600 28px "Poppins";
+        max-width: 70%;
+    }
+    
+    section.chooseOurApp .chooseOurAppInfo p {
+        max-width: 85%;
+        margin: 10px 0 25px;
+    }
+
+    section.chooseOurApp .benefit {
+        margin-bottom: 30px;
+    }
+
+    section.chooseOurApp .benefit {
+        width: 90%;
+    }
+
+    section.chooseOurApp .benefit h6 {
+        margin: 10px 0 5px;
+    }
+    
+    /* ULTIMATE_FEATURES */
+    section.ultimateFeatures {
+        padding-top: 60px;
+    }
+
+    section.ultimateFeatures .featuresInfo h5 {
+        font-size: 24px;
+    }
+    
+    section.ultimateFeatures .featuresInfo p {
+        margin: 10px auto 25px;
+    }
+
+    section.ultimateFeatures .features {
+        display: flex;
+        flex-direction: column;
+    }
+
+    section.ultimateFeatures .feature {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    /* OFFERS */
+    section.offers .content {
+        padding: 70px 0 70px;
+    }
+
+    section.offers .offersInfo h5 {
+        font: 600 28px/1.28 "Poppins";
+    }
+
+    section.offers .packages {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    section.offers .package {
+        width: 90%;
+        margin: 0 auto 30px;
+    }
+
+    section.offers .package.elect {
+        padding-bottom: 60px;
+    }
+
+    section.offers .package .businessClass, section.offers .package .proMaster {
+        padding: 30px 0 25px;
+    }
+
+    /* CLIENTS */
+    section.clients {
+        padding-top: 80px;
+    }
+
+    /* section.clients .map img {
+        display: none;
+    } */
+
+    section.clients .clientsContent {
+        text-align: center;
+    }
+
+    section.clients .clientsContent h3 {
+        font: 600 28px/1.25 "Poppins";
+        min-width: 60%;
+    }
+
+    section.clients .clientsContent p {
+        font: 14px "Poppins";
+        margin: 30px auto 25px;
+        width: 95%;;
+    }
+
+    section.clients .clientsContent .clientsCarousel .client {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section.clients .client h4 {
+        font: 600 20px "Poppins";
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    section.clients .clientsCarousel {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* QUESTIONS */
+    section.questions {
+        padding: 50px 0 60px;
+    }
+
+    section.questions .questionsInfo h5 {
+        font: 600 28px "Poppins";
+
+    }
+
+    section.questions .questionsForm .question img {
+        margin-left: 10px;
+    }
+
+    /* DOWNLOAD */
+    section.download .containerRight {
+        width: 97%;
+        margin: 0 auto; 
+    }
+
+    section.download h5 {
+        font: 600 28px "Poppins";
+        margin-bottom: 30px;
+    }
+
+    section.download .downloadWays img {
+        max-width: 50%;
+        margin: 0 auto;
+    }
+
+    section.download .downloadInfo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        max-width: 75%;
+        margin: 0 auto;
+    }
+
+    /* FOOTER */
+    footer {
+        padding: 75px 0 80px;
+    }
+
+    footer nav {
+        display: none;
+    }
+
+    footer .copyright {
+        margin-top: 50px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /*p {*/
+    /*    font: 12px "Poppins";*/
+    /*}*/
+
+    /*h4 {*/
+    /*    font: 600 21px "Poppins";*/
+    }
+
+    /* h5 {
+       font: 600 18px "Poppins";
+    }
+
+    p {
+        font-size: 12px;
+    } */
+
+    /* HEADER */
+    header .number1 {
+        display: none;
+    }
+
+    /* APP_FEATURES */
+    section.appFeatures .feature {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    section.appFeatures .feature img {
+        margin-right: 0;
+        margin-bottom: 5px;
+    }
+
+    /* JACKPOTS */
+    section.aboutJackpots .jackpotsInfo h4 {
+        font-size: 24px;
+    }
+
+    section.aboutJackpots .jackpotsInfo p {
+        font-size: 12px;
+    }
+
+    /* DESIGN_BY */
+    section.designedBy .designedByInfo h5 {
+        font-size: 24px;
+    }
+
+    /* CHOOSE_OUR_APP */
+    section.chooseOurApp .chooseOurAppInfo h5 {
+        font-size: 24px;
+    }
+
+    /* OFFERS */
+    section.offers .container {
+        width: 100%;
+    }
+
+    section.offers .content {
+        padding-bottom: 30px;
+    }
+
+    section.offers .offersInfo .annually {
+        display: none;
+    }
+
+    section.offers .packages {
+        margin-top: 40px;
+        max-width: 100%;
+    }
+}

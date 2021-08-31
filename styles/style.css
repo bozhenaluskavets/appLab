@@ -1,0 +1,678 @@
+/* NAV */
+.nav {
+    position: fixed;
+    width: 100%;
+    z-index: 10000;
+    margin: 130px 0 20px;
+}
+
+.nav .content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav .content .appLab p {
+    font: bold 30px/1.47 "Poppins";
+    color: #242f51;
+}
+
+span {
+    color: #fcae61;
+}
+
+.nav nav {
+    display: flex;
+}
+
+.nav nav ul {
+    display: flex;
+}
+
+.nav nav ul li {
+    margin: 0 20px;
+    font: 16px/2.75 "Poppins";
+    color: #242f51;
+    cursor: pointer;
+}
+
+.nav nav ul li:hover {
+    color: #2500f9;
+}
+/* --NAV-- */
+
+/* HEADER */
+header {
+    background: url("../images/vector-smart-object.png") no-repeat left bottom/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+header .content {
+    display: flex;
+    justify-content: space-around;
+}
+
+header .number1 {
+    display: flex;
+    align-items: center;
+    max-width: 70%;
+    border: solid 1px #e2eaed;
+    background-color: #e2eaed;
+    border-radius: 17.5px;
+    min-width: 331px;
+}
+
+header .number1 p {
+    font: 18px/1.56 "Poppins";
+    color: #242f51;
+}
+
+header .number1 .tick {
+    width: 35px;
+    height: 35px;
+    border-radius: 17.5px;
+    background-color: #feaa25;
+    margin-right: 10px;
+
+}
+
+header .number1 .tick img {
+    width: 19px;
+    height: 19px;
+    margin: 8px;
+}
+    
+
+header .headerInfo, header  .headerImg {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header .content img {
+    width: 100%;
+    max-height: 100vh;
+    object-fit: contain;
+}
+
+header h1 {
+    font: 600 60px/1.25 "Poppins";
+    color: #242f51;
+    margin: 25px 0;
+}
+
+header .buttonDemo {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}
+
+header .buttonDemo a {
+    font: 16px/2.75 "Poppins";
+    color: #2500f9;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+/* --HEADER-- */
+
+/* COMPANIES */
+section.companies {
+    padding: 110px 0;
+}
+
+section.companies .content h6 {
+    font: 400 16px/1.75 "Poppins";
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+section.companies .content .logos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section.companies .content .logo {
+    width: 10%;
+}
+
+section.companies .content .logo img {
+    width: 100%;
+    object-fit: contain;
+}
+/* --COMPANIES-- */
+
+/* APP_FEATURES */
+section.appFeatures .content {
+    display: flex;
+}
+
+section.appFeatures .featuresImg {
+    margin-right: 35px;
+    width: 100%;
+}
+
+section.appFeatures .featuresImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+section.appFeatures .featuresInfo h4 {
+    font: 600 36px/1.28 "Poppins";
+    color: #242f51;
+}
+
+section.appFeatures p.aboutFeatures {
+    margin: 30px 0 90px;
+}
+
+section.appFeatures .feature {
+    display: flex;
+    margin-bottom: 60px;
+}
+
+section.appFeatures .feature img {
+    margin-right: 30px;
+    display: flex;
+}
+
+section.appFeatures .feature h6 {
+    font: 600 20px "Poppins";
+    margin-bottom: 15px;
+}
+/* --APP_FEATURES-- */
+
+/* JACKPOT */
+section.aboutJackpots .content {
+    margin: 75px 0 115px;
+}
+
+section.aboutJackpots .jackpotsInfo {
+    display: flex;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+section.aboutJackpots .jackpotsInfo h4 {
+    font: 600 40px/1.25 "Poppins";
+    color: #242f51;
+    border-right: 1px solid rgba(0, 0, 0, .1);
+    padding-right: 70px;
+    margin-right: 50px;
+}
+
+section.aboutJackpots .jackpots {
+    display: flex;
+    justify-content: space-between;
+}
+
+section.aboutJackpots .jackpots .jackpot {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    min-width: 280px;
+}
+
+section.aboutJackpots .jackpots .jackpot img {
+    width: 88px;
+    height: 88px;
+}
+
+section.aboutJackpots .jackpots .jackpot h6 {
+    font: 600 20px "Poppins";
+    margin-top: 15px;
+}
+/* --JACKPOT-- */
+
+/* DESIGNED_BY */
+section.designedBy .content {
+    display: flex;
+    padding-bottom: 70px;
+}
+
+section.designedBy .designedByImg {
+    margin-right: 110px;
+}
+
+section.designedBy .designedByInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+}
+
+section.designedBy .designedByInfo h5 {
+    font: 600 36px/1.28 "Poppins";
+    color: #242f51;
+}
+
+section.designedBy .designedByInfo p {
+    margin: 30px 0 40px;
+}
+
+section.designedBy .designedByInfo button {
+    align-self: flex-start;
+}
+
+/* --DESIGNED_BY-- */
+
+/* CHOOSE_OUR_APP */
+section.chooseOurApp {
+    padding-top: 100px;
+}
+
+section.chooseOurApp .chooseOurAppInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+section.chooseOurApp .chooseOurAppInfo h5 {
+    font: 600 36px "Poppins";
+    color: #242f51;
+    max-width: 35%;
+}
+
+section.chooseOurApp .chooseOurAppInfo p {
+    margin: 35px 0 95px;
+}
+
+section.chooseOurApp .benefits {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+section.chooseOurApp .benefit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(30% - 50px);
+    margin-bottom: 70px;
+}
+
+section.chooseOurApp .benefit img {
+    width: 88px;
+    height: 88px;
+}
+
+section.chooseOurApp .benefit h6 {
+    font: 600 20px "Poppins";
+    margin: 35px 0 20px;
+}
+/* --CHOOSE_OUR_APP-- */
+
+/* ULTIMATE_FEATURES */
+section.ultimateFeatures {
+    padding-top: 100px;
+}
+
+section.ultimateFeatures .content {
+    display: flex;
+}
+
+section.ultimateFeatures .content .ultimateFeaturesInfo {
+    width: 50%;
+}
+
+section.ultimateFeatures .featuresInfo h5 {
+    font: 600 36px/1.28 "Poppins";
+    color: #242f51;
+}
+
+section.ultimateFeatures .featuresInfo p {
+    margin: 30px 0 60px;
+}
+
+section.ultimateFeatures .features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+section.ultimateFeatures .feature {
+    display: flex;
+    flex-direction: column;
+    width: calc(45% - 50px);
+    margin-bottom: 60px;
+}
+
+section.ultimateFeatures .feature img {
+    width: 88px;
+    height: 88px;
+}
+
+section.ultimateFeatures .feature h6 {
+    font: 600 20px "Poppins";
+    margin: 35px 0 15px;
+}
+
+section.ultimateFeatures .ultimateFeaturesImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+/* --ULTIMATE_FEATURES-- */
+
+/* OFFERS */
+section.offers .content {
+    padding: 170px 0 100px;
+}
+
+section.offers .offersInfo {
+    text-align: center;
+    margin: 0 auto;
+}
+
+section.offers .offersInfo h5 {
+    font: 600 36px/1.28 "Poppins";
+    color: #242f51;
+    margin-bottom: 30px;
+}
+
+section.offers .offersInfo .annually {
+    display: flex;
+    align-items: center;
+    max-width: 25%;
+    border-radius: 28.5px;
+    border: solid 2px #ebebeb;
+    margin: 80px auto 40px;
+    min-width: 280px;
+}
+
+section.offers .offersInfo .annually button {
+    margin-right: 35px;
+}
+
+section.offers .offersInfo .annually .whiteBtn {
+    font: 500 16px/2.75 "Poppins";
+    color: rgba(97, 99, 104, 0.75);
+    border: none;
+    background-color: white;
+}
+
+section.offers .packages {
+    display: flex;
+    justify-content: space-around;
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+section.offers .package {
+    text-align: center;
+    width: 35%;
+    border-radius: 9px;
+    box-shadow: 3.8px 54.9px 62px 0 rgba(144, 163, 177, 0.18);
+}
+
+section.offers .package.active {
+    border: solid 2px #ebebeb;
+    box-shadow: none;
+}
+
+section.offers .package span.dark {
+    font: 600 60px "Poppins";
+    color: #242f51;
+}
+
+section.offers .package h6 {
+    font: 600 20px/1.4 "Poppins";
+    color: #242f51;
+}
+
+section.offers .package .businessClass, section.offers .package .proMaster {
+    background-color: #f4f7f9;
+    padding: 70px 0 40px;
+    border-top-right-radius: 9px;
+    border-top-left-radius: 9px;
+}
+
+section.offers .package .businessClassInfo ul li, section.offers .package .proMasterInfo ul li {
+    font: 16px/3 "Poppins";
+    color: #999ca5;
+}
+
+section.offers .package .trial {
+    font: 400 16px/1.75 "Poppins";
+    color: #2500f9;
+    margin: 30px 0;
+}
+/* --OFFERS-- */
+
+/* CLIENTS */
+section.clients {
+    padding-top: 120px;
+}
+
+section.clients .content {
+    display: flex;
+}
+
+section.clients .map {
+   display: flex;
+   align-items: center;
+}
+
+section.clients .map img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+section.clients .clientsContent {
+    width: 45%;
+}
+
+section.clients .clientsContent h3 {
+    font: 600 40px/1.25 "Poppins";
+    color: #242f51;
+    margin-bottom: 30px;
+}
+
+section.clients .clientsContent p {
+    font: 16px/1.63 "Poppins";
+    color: #616368;
+    margin-bottom: 35px;
+}
+
+section.clients .client .rating {
+    margin-bottom: 30px;
+}
+
+section.clients .client h4 {
+    font: 600 20px "Poppins";
+    color: #242f51;
+    margin-bottom: 30px;
+}
+
+section.clients .client .clientInfo {
+    display: flex;
+    align-items: center;
+} 
+
+section.clients .client .clientInfo .clientImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    width: 90px;
+    height: 90px;
+}
+
+section.clients .client .clientInfo .clientImg img {
+    width: 100%;
+    object-fit: cover;
+}
+
+section.clients .client .clientInfo h5 {
+    font: 600 18px "Poppins";
+    color: #242f51;
+}
+
+section.clients .client .clientInfo h6 {
+    font: 400 18px "Poppins";
+    color: #616368;
+}
+
+section.clients .clientsCarousel {
+    position: relative;
+}
+
+section.clients .clientsCarousel .arrows {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    bottom: 16px;
+}
+
+section.clients .clientsCarousel .arrows .arrow {
+    width: 50px;
+    height: 50px;
+    border: solid 2px #eff3f8;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+section.clients .clientsCarousel .arrows .arrowsSeparator {
+    background: #e7e7e7;
+    width: 1px;
+    height: 25px;
+    margin: 0 15px;
+}
+
+/* --CLIENTS-- */
+
+/* QUESTIONS */
+section.questions {
+    padding: 120px 0 100px;
+}
+
+section.questions .questionsInfo {
+    text-align: center;
+    margin-bottom: 65px;
+}
+
+section.questions .questionsInfo h5 {
+    font: 600 40px/1.45 "Poppins";
+    color: #242f51;
+    margin-bottom: 30px;
+}
+
+section.questions .questionsInfo p {
+    width: 80%;
+    margin: 0 auto; 
+    font: 16px/1.63 "Poppins";
+    color: #616368;
+}
+
+section.questions h6 {
+    font: 600 20px "Poppins";
+    color: #242f51;
+}
+
+section.questions .questionsForm .question {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f5f7fa;
+    padding: 20px 35px 20px 50px;
+    margin-bottom: 10px;
+} 
+
+section.questions .questionsForm .question .questionHeader {
+    display: flex;
+    justify-content: space-between;
+} 
+
+section.questions .questionsForm .question p {
+    display: none;
+    margin-top: 15px;
+} 
+
+section.questions .questionsForm .question img {
+    object-fit: contain;
+}
+/* --QUESTIONS-- */
+
+/* DOWNLOAD */
+section.download {
+    padding: 60px 30px 0 0;
+}
+
+section.download .content {
+    display: flex;
+}
+
+section.download .downloadInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section.download h5 {
+    font: 600 40px "Poppins";
+    margin-bottom: 30px;
+}
+
+section.download .downloadWays {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+section.download .downloadWays .googlePlay {
+    margin-right: 30px;
+}
+
+section.download .downloadImg {
+    margin-bottom: -8%;
+}
+
+section.download .downloadImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+/* --DOWNLOAD-- */
+
+/* FOOTER */
+footer {
+    padding: 115px 0 160px;
+    background-color: #09142e;
+}
+
+footer .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer nav ul {
+    display: flex;
+    margin: 50px 0;
+}
+
+footer nav ul li {
+    margin: 0 20px;
+    font: 16px/2.75 "Poppins";
+    color: white;
+    cursor: pointer;
+}
+
+footer .copyright {
+    margin-top: 90px;
+}

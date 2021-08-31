@@ -1,0 +1,16 @@
+.btnPrimary {
+    cursor: pointer;
+    color: white;
+    outline: none;
+    background: #2500f9;
+    border: 1px solid #2500f9;
+    font: bold 16px/2.75 "Poppins";
+    padding: 0 40px;
+    border-radius: 28.5px;
+    transition: all .3s ease;
+}
+
+.btnPrimary:hover {
+    color: white;
+    background: #190299;
+}
